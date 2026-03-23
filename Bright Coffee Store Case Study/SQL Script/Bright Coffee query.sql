@@ -113,9 +113,15 @@ FROM `brightlight`.`default`.`bright_coffee_shop_analysis`
 GROUP BY product_category
 ORDER BY product_revenue DESC;
 
---15.CUSTOMER BEHAVIOUR ANALYSIS
 -------------------------------------------------------------------------
----Count thenumber of sales in each store per month
+--15.Total sales generated 
+-------------------------------------------------------------------------
+SELECT SUM(unit_price * transaction_qty) AS Total_Revenue
+FROM `brightlight`.`default`.`bright_coffee_shop_analysis`;
+
+--CUSTOMER BEHAVIOUR ANALYSIS
+-------------------------------------------------------------------------
+---16.Count thenumber of sales in each store per month
 -------------------------------------------------------------------------
 
 SELECT store_location,
@@ -126,7 +132,7 @@ GROUP BY store_location, MONTH(transaction_date)
 ORDER BY store_location;
 
 -------------------------------------------------------------------------
---16.Total quantity of items sold per product category
+--17.Total quantity of items sold per product category
 -------------------------------------------------------------------------
 SELECT DISTINCT product_category,
                 SUM (transaction_qty) AS total_qty
@@ -135,7 +141,7 @@ GROUP BY product_category
 ORDER BY total_qty DESC;
 
 -------------------------------------------------------------------------
---17.Which store sells the most units in each product category
+--18.Which store sells the most units in each product category
 -------------------------------------------------------------------------
 SELECT store_location,
        product_category,
@@ -145,19 +151,19 @@ GROUP BY store_location,product_category
 ORDER BY total_units_sold DESC;
 
 ---------------------------------------------------------------------------------------
---18.Identify earliest and late times, earliest time is 06:00AM and Late time is 20:59pm
+--19.Identify earliest and late times, earliest time is 06:00AM and Late time is 20:59pm
 ----------------------------------------------------------------------------------------
 SELECT MIN (transaction_time) AS Early_morning 
 FROM `brightlight`.`default`.`bright_coffee_shop_analysis`;
 
 ---------------------------------------------------------------------------------------
---19.Identify  latest times, Latest time is 20:59pm
+--20.Identify  latest times, Latest time is 20:59pm
 ----------------------------------------------------------------------------------------
 SELECT MAX (transaction_time) AS late_evening_hours
 FROM `brightlight`.`default`.`bright_coffee_shop_analysis`;
 
 ---------------------------------------------------------------------------------------
---20.Grouping time into buckets of hourly intervals
+--21.Grouping time into buckets of hourly intervals
 ---------------------------------------------------------------------------------------
 SELECT 
     product_category,
@@ -184,7 +190,7 @@ GROUP BY
 ORDER BY total_products DESC;
 
 ---------------------------------------------------------------------------------------
---21.What time of day the store performs best 
+--22.What time of day the store performs best 
 ---------------------------------------------------------------------------------------
 SELECT DISTINCT store_location,
                 product_category,
@@ -210,3 +216,4 @@ GROUP BY
         ELSE 'Night'
     END
 ORDER BY total_amount DESC;
+        
