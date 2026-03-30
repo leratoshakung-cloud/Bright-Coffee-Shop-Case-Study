@@ -1,6 +1,6 @@
 # ☕Bright Coffee Shop- Sales Analysis
 
-# Description
+# 📁 Description
 This repository entails a sales performance analysis that was conducted for the new CEO to understand the performance of the business for the period of 6 months, i.e. from 1st January to 1st June 2023.
 
 # 🎯Objective
