@@ -12,7 +12,7 @@ The objective of this analysis is to derive actionable insights from historical 
 
 # 📊 Tools Used
 - **Data processing**: The SQL queries was completed in *Databricks* platform, then dowloaded the processed data into Microsoft excel for analysis
-- **Project Planning & Archetecture**: I used *Miro* to plan how to do this project, i used brainstorming and flow diagrams
+- **Project Planning & Archetecture**: I used *Miro* to brainstorm and to create a flow diagram. I also used *Canva* to build the project timelines
 - **Data Visualization**: To visualise i used *Microsoft Excel*, this where i built the analysis using pivot tables and charts
 - **Presentation**: Final analysis was presented on *Microsoft Powerpoint*
 
