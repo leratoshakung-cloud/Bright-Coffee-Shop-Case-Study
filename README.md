@@ -1,7 +1,7 @@
 # Bright-Coffee-Shop-Analysis
 
 # Description
-This repository entails a sales performance analysis that was conducted for the new CEO to understand the performance of the business for the period of 6 month, i.e. from 1 January to 1 June 2023.
+This repository entails a sales performance analysis that was conducted for the new CEO to understand the performance of the business for the period of 6 months, i.e. from 1st January to 1st June 2023.
 
 # Objective
 The objective of this analysis is to derive actionable insights from historical data and develop a presentation that will support the new CEO with his mandate to fast track revenue growth and enhance product performance. The data should enable clear visualization of the following insights:
@@ -11,10 +11,10 @@ The objective of this analysis is to derive actionable insights from historical 
 - Data‑driven recommendations to enhance overall sales performance
 
 # Tools Used
-- Data processing:SQL query was completed in *Databricks* platform, then after dowloaeded into Microsoft excel for analysis
-- Project Planning & Archetecture: *Miro* used for brainstorming and flow diagram
-- Data Visualization: *Microsoft Excel* used for analysis of the data with tables and charts
-- Presentation: Final analysis was pressented in *Microsoft Powerpoint*
+- **Data processing**: SQL query was completed in *Databricks* platform, then dowloaded the raw data into Microsoft excel for analysis
+- **Project Planning & Archetecture**: *Miro* used for brainstorming and flow diagram
+- **Data Visualization**: *Microsoft Excel* used for analysis of the data with tables and charts
+- **Presentation**: Final analysis was presented in *Microsoft Powerpoint*
 
 # Key insights
 - Revenue Trend: Strong growth from January to June, rising from 81K to 166K (+104%).
