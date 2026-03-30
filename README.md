@@ -11,10 +11,10 @@ The objective of this analysis is to derive actionable insights from historical 
 - Data‑driven recommendations to enhance overall sales performance
 
 # 📊 Tools Used
-- **Data processing**: SQL query was completed in *Databricks* platform, then dowloaded the raw data into Microsoft excel for analysis
-- **Project Planning & Archetecture**: *Miro* used for brainstorming and flow diagram
-- **Data Visualization**: *Microsoft Excel* used for analysis of the data with tables and charts
-- **Presentation**: Final analysis was presented in *Microsoft Powerpoint*
+- **Data processing**: The SQL queries was completed in *Databricks* platform, then dowloaded the processed data into Microsoft excel for analysis
+- **Project Planning & Archetecture**: I used *Miro* to plan how to do this project, i used brainstorming and flow diagrams
+- **Data Visualization**: To visualise i used *Microsoft Excel*, this where i built the analysis using pivot tables and charts
+- **Presentation**: Final analysis was presented on *Microsoft Powerpoint*
 
 # 💡Key insights
 - Revenue Trend: Strong growth from January to June, rising from 81K to 166K (+104%).
