@@ -14,7 +14,7 @@ The objective of this analysis is to derive actionable insights from historical 
 - **Data processing**: The SQL queries was completed in *Databricks* platform, then dowloaded the processed data into Microsoft excel for analysis
 - **Project Planning & Archetecture**: I used *Miro* to brainstorm and to create a flow diagram. I also used *Canva* to build the project timelines
 - **Data Visualization**: To visualise i used *Microsoft Excel*, this where i built the analysis using pivot tables and charts
-- **Presentation**: Final analysis was presented on *Microsoft Powerpoint*
+- **Presentation**: Final analysis was presented on *Microsoft Powerpoint*, then created this interactive [Bright Coffee Shop Dashboard](https://brightcoffee.lovable.app) using *Lovable AI* 
 
 # 💡Key insights
 - Revenue Trend: Strong growth from January to June, rising from 81K to 166K (+104%).
